@@ -34,6 +34,7 @@ Este resumo apresenta os conceitos e serviços de análise de dados abordados na
 ### 4. Análise e Data Warehousing
 *   **Amazon Redshift:** Serviço de data warehouse na nuvem que utiliza SQL para analisar dados estruturados e semiestruturados em larga escala. Destaca-se pela relação preço-performance (até três vezes superior a outros warehouses) e pela capacidade de extrair insights preditivos sem a necessidade de migrar ou transformar dados.
 
+___
 Com base nos documentos fornecidos, segue um **glossário** com os conceitos fundamentais para a compreensão de arquiteturas de dados e análises modernas:
 
 ### Fundamentos de Armazenamento e Integração
@@ -57,6 +58,7 @@ Com base nos documentos fornecidos, segue um **glossário** com os conceitos fun
 *   **dbt (data build tool):** Uma ferramenta que transforma dados brutos dentro do warehouse em **produtos de dados confiáveis**, aplicando práticas de engenharia de software (como testes e controle de versão) ao fluxo de análise.
 *   **ETL (Extração, Transformação e Carga):** O processo fundamental de extrair dados de diversas fontes, transformá-los conforme a necessidade do negócio e carregá-los em um destino para análise.
 
+___
 Aqui estão algumas sugestões de prompts reutilizáveis para apoiar as futuras revisões sobre os temas abordados:
 
 1.  **Comparação de Armazenamento:** "Compare as características de um **Data Lake** e de um **Data Warehouse**, utilizando o **Amazon S3** e o **Amazon Redshift** como exemplos práticos de cada conceito."
