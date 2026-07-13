@@ -12,8 +12,6 @@ Aqui estão os links das fontes de dados utilizadas:
 *   **O que é um data lake?:** [https://aws.amazon.com/pt/what-is/data-lake/](https://aws.amazon.com/pt/what-is/data-lake/)
 *   **dbt Developer Hub:** [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
 
-
-
 Este resumo apresenta os conceitos e serviços de análise de dados abordados nas oito fontes fornecidas, abrangendo desde o armazenamento fundamental até o processamento de fluxos em tempo real e transformações avançadas.
 
 ### 1. Fundamentos de Armazenamento e Arquitetura
@@ -34,3 +32,26 @@ Este resumo apresenta os conceitos e serviços de análise de dados abordados na
 
 ### 4. Análise e Data Warehousing
 *   **Amazon Redshift:** Serviço de data warehouse na nuvem que utiliza SQL para analisar dados estruturados e semiestruturados em larga escala. Destaca-se pela relação preço-performance (até três vezes superior a outros warehouses) e pela capacidade de extrair insights preditivos sem a necessidade de migrar ou transformar dados.
+
+Com base nos documentos fornecidos, preparei um **glossário** com os conceitos fundamentais para a compreensão de arquiteturas de dados e análises modernas:
+
+### Fundamentos de Armazenamento e Integração
+*   **Data Lake:** Um repositório centralizado que permite o armazenamento de dados estruturados e não estruturados em **qualquer escala**, sem a necessidade de estruturação prévia.
+*   **Data Warehouse:** Um banco de dados otimizado para análise de dados relacionais, onde a estrutura e o esquema são definidos **antecipadamente** para consultas SQL rápidas.
+*   **Amazon S3:** Serviço de armazenamento de objetos de alta durabilidade e escalabilidade, que serve como o **alicerce para data lakes modernos** e aplicações de IA.
+*   **AWS Glue:** Serviço de **integração de dados sem servidor** que facilita a descoberta, preparação e combinação de dados para fins de análise e machine learning.
+
+### Processamento de Dados em Tempo Real (Streaming)
+*   **Amazon Kinesis:** Plataforma para coletar, processar e analisar dados de **streaming em tempo real**, permitindo reações rápidas a novas informações.
+*   **Amazon Data Firehose:** Ferramenta que carrega fluxos de dados de forma confiável diretamente em **data lakes, warehouses e serviços de análise**.
+
+### Padrões de Arquitetura e Qualidade
+*   **Arquitetura Medallion:** Um padrão de design de dados que organiza os registros em camadas para melhorar progressivamente sua **qualidade e confiabilidade**.
+    *   **Camada Bronze:** Contém os dados em seu **estado bruto**, mantendo a fidelidade total à fonte original.
+    *   **Camada Prata:** Representa dados que foram **validados, limpos e enriquecidos**, tornando-os mais úteis para análise avançada.
+    *   **Camada Ouro:** Visualizações altamente **refinadas e agregadas**, otimizadas para o consumo por usuários de negócios e painéis de BI.
+
+### Transformação e Análise
+*   **Amazon Redshift:** Um data warehouse na nuvem rápido e econômico, projetado para analisar dados estruturados e semiestruturados em **larga escala** usando SQL.
+*   **dbt (data build tool):** Uma ferramenta que transforma dados brutos dentro do warehouse em **produtos de dados confiáveis**, aplicando práticas de engenharia de software (como testes e controle de versão) ao fluxo de análise.
+*   **ETL (Extração, Transformação e Carga):** O processo fundamental de extrair dados de diversas fontes, transformá-los conforme a necessidade do negócio e carregá-los em um destino para análise.
