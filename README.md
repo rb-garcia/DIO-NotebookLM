@@ -1,7 +1,7 @@
 # DIO-NotebookLM
  Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM
 
-Aqui estão os links das fontes de dados utilizadas neste Notebook:
+Aqui estão os links das fontes de dados utilizadas:
 
 *   **Amazon Data Firehose:** [https://aws.amazon.com/pt/firehose/](https://aws.amazon.com/pt/firehose/)
 *   **AWS Glue:** [https://docs.aws.amazon.com/pt_br/glue/latest/dg/what-is-glue.html](https://docs.aws.amazon.com/pt_br/glue/latest/dg/what-is-glue.html)
@@ -13,7 +13,8 @@ Aqui estão os links das fontes de dados utilizadas neste Notebook:
 *   **dbt Developer Hub:** [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
 
 
-Este resumo estruturado apresenta os conceitos e serviços de análise de dados abordados nas oito fontes fornecidas, abrangendo desde o armazenamento fundamental até o processamento de fluxos em tempo real e transformações avançadas.
+
+Este resumo apresenta os conceitos e serviços de análise de dados abordados nas oito fontes fornecidas, abrangendo desde o armazenamento fundamental até o processamento de fluxos em tempo real e transformações avançadas.
 
 ### 1. Fundamentos de Armazenamento e Arquitetura
 *   **Data Lake:** É um repositório centralizado que armazena dados estruturados e não estruturados em qualquer escala, permitindo análises variadas, desde painéis de BI até machine learning, sem a necessidade de estruturar os dados previamente. Diferencia-se do **Data Warehouse**, que é otimizado para dados relacionais e requer esquemas definidos antes da captura.
