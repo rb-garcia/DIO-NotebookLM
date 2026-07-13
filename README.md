@@ -1,7 +1,7 @@
 # DIO-NotebookLM
  Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM
 
-Aqui estão os links das fontes de dados utilizadas:
+Seguem os links das fontes de dados utilizadas:
 
 *   **Amazon Data Firehose:** [https://aws.amazon.com/pt/firehose/](https://aws.amazon.com/pt/firehose/)
 *   **AWS Glue:** [https://docs.aws.amazon.com/pt_br/glue/latest/dg/what-is-glue.html](https://docs.aws.amazon.com/pt_br/glue/latest/dg/what-is-glue.html)
@@ -12,6 +12,7 @@ Aqui estão os links das fontes de dados utilizadas:
 *   **O que é um data lake?:** [https://aws.amazon.com/pt/what-is/data-lake/](https://aws.amazon.com/pt/what-is/data-lake/)
 *   **dbt Developer Hub:** [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
 
+__
 Este resumo apresenta os conceitos e serviços de análise de dados abordados nas oito fontes fornecidas, abrangendo desde o armazenamento fundamental até o processamento de fluxos em tempo real e transformações avançadas.
 
 ### 1. Fundamentos de Armazenamento e Arquitetura
@@ -33,7 +34,7 @@ Este resumo apresenta os conceitos e serviços de análise de dados abordados na
 ### 4. Análise e Data Warehousing
 *   **Amazon Redshift:** Serviço de data warehouse na nuvem que utiliza SQL para analisar dados estruturados e semiestruturados em larga escala. Destaca-se pela relação preço-performance (até três vezes superior a outros warehouses) e pela capacidade de extrair insights preditivos sem a necessidade de migrar ou transformar dados.
 
-Com base nos documentos fornecidos, preparei um **glossário** com os conceitos fundamentais para a compreensão de arquiteturas de dados e análises modernas:
+Com base nos documentos fornecidos, segue um **glossário** com os conceitos fundamentais para a compreensão de arquiteturas de dados e análises modernas:
 
 ### Fundamentos de Armazenamento e Integração
 *   **Data Lake:** Um repositório centralizado que permite o armazenamento de dados estruturados e não estruturados em **qualquer escala**, sem a necessidade de estruturação prévia.
@@ -55,3 +56,9 @@ Com base nos documentos fornecidos, preparei um **glossário** com os conceitos 
 *   **Amazon Redshift:** Um data warehouse na nuvem rápido e econômico, projetado para analisar dados estruturados e semiestruturados em **larga escala** usando SQL.
 *   **dbt (data build tool):** Uma ferramenta que transforma dados brutos dentro do warehouse em **produtos de dados confiáveis**, aplicando práticas de engenharia de software (como testes e controle de versão) ao fluxo de análise.
 *   **ETL (Extração, Transformação e Carga):** O processo fundamental de extrair dados de diversas fontes, transformá-los conforme a necessidade do negócio e carregá-los em um destino para análise.
+
+Aqui estão algumas sugestões de prompts reutilizáveis para apoiar as futuras revisões sobre os temas abordados:
+
+1.  **Comparação de Armazenamento:** "Compare as características de um **Data Lake** e de um **Data Warehouse**, utilizando o **Amazon S3** e o **Amazon Redshift** como exemplos práticos de cada conceito."
+2.  **Fluxo de Dados e Ferramentas:** "Descreva o caminho de um dado desde a sua captura em tempo real via **Amazon Kinesis ou Firehose** até a sua transformação final com **AWS Glue ou dbt**, destacando o papel do **Data Catalog** nesse processo."
+3.  **Arquitetura e Qualidade:** "Explique os objetivos das camadas **Bronze, Prata e Ouro** na **Arquitetura Medallion** e como essa estrutura garante a entrega de dados confiáveis para aplicações de **Business Intelligence e IA**."
