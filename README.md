@@ -1,6 +1,18 @@
 # DIO-NotebookLM
  Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM
 
+Aqui estão os links das fontes de dados utilizadas neste Notebook:
+
+*   **Amazon Data Firehose:** [https://aws.amazon.com/pt/firehose/](https://aws.amazon.com/pt/firehose/)
+*   **AWS Glue:** [https://docs.aws.amazon.com/pt_br/glue/latest/dg/what-is-glue.html](https://docs.aws.amazon.com/pt_br/glue/latest/dg/what-is-glue.html)
+*   **Amazon Kinesis:** [https://aws.amazon.com/pt/kinesis/](https://aws.amazon.com/pt/kinesis/)
+*   **Amazon Redshift:** [https://aws.amazon.com/pt/redshift/](https://aws.amazon.com/pt/redshift/)
+*   **Amazon S3:** [https://aws.amazon.com/pt/s3/](https://aws.amazon.com/pt/s3/)
+*   **Arquitetura Medallion:** [https://learn.microsoft.com/pt-br/azure/databricks/lakehouse/medallion](https://learn.microsoft.com/pt-br/azure/databricks/lakehouse/medallion)
+*   **O que é um data lake?:** [https://aws.amazon.com/pt/what-is/data-lake/](https://aws.amazon.com/pt/what-is/data-lake/)
+*   **dbt Developer Hub:** [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
+
+
 Este resumo estruturado apresenta os conceitos e serviços de análise de dados abordados nas oito fontes fornecidas, abrangendo desde o armazenamento fundamental até o processamento de fluxos em tempo real e transformações avançadas.
 
 ### 1. Fundamentos de Armazenamento e Arquitetura
