@@ -12,7 +12,7 @@ Seguem os links das fontes de dados utilizadas:
 *   **O que é um data lake?:** [https://aws.amazon.com/pt/what-is/data-lake/](https://aws.amazon.com/pt/what-is/data-lake/)
 *   **dbt Developer Hub:** [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
 
-__
+___
 Este resumo apresenta os conceitos e serviços de análise de dados abordados nas oito fontes fornecidas, abrangendo desde o armazenamento fundamental até o processamento de fluxos em tempo real e transformações avançadas.
 
 ### 1. Fundamentos de Armazenamento e Arquitetura
